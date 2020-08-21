@@ -1,22 +1,24 @@
 body {
-  font-family: 'Montserrat'!important;
+  font-family: 'Montserrat';
 }
 
 h1{
-  font-size: 3.5rem !important;
-  line-height: 1.5 !important;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
   color: white;
   padding: 2rem 0;
 }
 
 .navbar{
-  padding: 0 0 4.5rem !important;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem !important;
-  font-weight: bold !important;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 
 .nav-item{
@@ -25,6 +27,7 @@ h1{
 
 .nav-link{
   font-family: "Montserrat";
+  font-weight: 300;
   font-size: 1.2rem;
 }
 
@@ -39,6 +42,5 @@ h1{
 
 #title {
   font-family: "Montserrat";
-  font-weight: bolder;
-  background-color: #ff4c68
+  background-color: #ff4c68;
 }
