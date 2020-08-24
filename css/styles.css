@@ -1,10 +1,12 @@
 body {
-  font-family: 'Montserrat'!important;
+  font-family: 'Montserrat';
 }
 
 h1{
-  font-size: 3.5rem !important;
-  line-height: 1.5 !important;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
   color: white;
   padding: 2rem 0;
 }
@@ -27,14 +29,22 @@ h3{
   color: #ff4c68;
 }
 
+h3{
+  font-weight: 900;
+}
+
+p{
+  color:#8f8f8f;
+}
+
 .navbar{
-  padding: 0 0 4.5rem !important;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem !important;
-  font-weight: bold !important;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 
 .nav-item{
@@ -43,11 +53,31 @@ h3{
 
 .nav-link{
   font-family: "Montserrat";
+  font-weight: 300;
   font-size: 1.2rem;
 }
 
 .container-fluid {
   padding: 3% 15% !important;
+}
+
+#features{
+  padding: 7% 15%;
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4668;
 }
 
 .rotate-phone {
@@ -57,6 +87,5 @@ h3{
 
 #title {
   font-family: "Montserrat";
-  font-weight: bolder;
-  background-color: #ff4c68
+  background-color: #ff4c68;
 }
