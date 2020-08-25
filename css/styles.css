@@ -11,6 +11,10 @@ h1{
   padding: 2rem 0;
 }
 
+h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
 h3{
   font-weight: 900;
 }
@@ -70,4 +74,30 @@ p{
 #title {
   font-family: "Montserrat";
   background-color: #ff4c68;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+  background-color: #ef8172;
+}
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  text-align: center;
+  color: #fff;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+
 }
