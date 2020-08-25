@@ -10,6 +10,24 @@ h1{
   color: white;
   padding: 2rem 0;
 }
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.feature{
+  text-align: center;
+  margin: auto;
+}
+.icon-feature{
+  color: #ef8172;
+  font-size:2rem;
+  margin: 20px 0;
+}
+.icon-feature:hover{
+  color: #ff4c68;
+}
 
 h2{
   font-family: "Montserrat";
