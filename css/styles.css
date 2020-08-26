@@ -130,3 +130,48 @@ p{
   padding: 5% 15%;
   text-align: center;
 }
+
+@media (max-width: 1028px) {
+#title{
+  text-align: center;
+}
+.rotate-phone{
+  position: static;
+  transform: rotate(0);
+  padding-top: 5%
+}
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding: 10% 15%;
+}
+
+.cta-button{
+  margin-right: 50px;
+}
+.cta-text{
+  font-size: 3rem;
+ padding-bottom: 5%;
+}
+
+#footer{
+background-color: white;
+text-align: center;
+font-family: "Montserrat";
+padding: 5% 15%;
+}
+
+.media-color{
+  color: #31373d;
+  margin-right: 2%;
+
+}
+.social-media-sites{
+  padding-bottom:3%;
+}
